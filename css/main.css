@@ -24,7 +24,7 @@ body {
 
 section#about{
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 0;
   width: 280px;
   margin: 0;
@@ -32,7 +32,7 @@ section#about{
   background: rgba(255, 255, 255, 1);
 }
 article {
-  padding: 40px 30px 40px 60px;
+  padding: 40px 0 40px 55px;
 }
 
 h1 {
