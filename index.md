@@ -1,5 +1,6 @@
 ---
 layout: default
+fontclass: tk-skolar
 ---
 
 # hester mieras –
@@ -7,6 +8,6 @@ layout: default
 * grafisch ontwerp
 * knsm-laan 207
 * 1019 lb amsterdam
-* 06 - 54 68 46 78
+* +31(0)6-54684678
 * [hester@mieras.nl](mailto:hester@mieras.nl)
 * [hestermieras.nl](http://www.hestermieras.nl)

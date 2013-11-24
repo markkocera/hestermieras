@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="//use.typekit.net/vqg4ilp.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link rel="stylesheet" href="css/main.css">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <section id="about">
+    <section id="about" class="{{page.fontclass}}">
       <article>
         {{ content }}
       </article>
     </section>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      window.jQuery || document.write("<script src='javascripts/jquery-1.10.2.min.js'>\x3C/script>")
+      $.backstretch([
+        "images/ampersand.jpg",
+        "images/beatrix-munt.jpg",
+        "images/ogenblik.jpg",
+        "images/taart.jpg",
+        "images/en-teken-groen.jpg",
+        "images/trouwkaart.jpg",
+        "images/dja-boekje.jpg",
+        "images/utopia-achterkant.jpg",
+        "images/utopia-voorkant.jpg",
+        "images/utopia-kaart.jpg",
+        "images/waaier-fibonachi.jpg"
+      ], {duration: 4000, fade: 'normal'});
+    </script>
   </body>
 </html>
