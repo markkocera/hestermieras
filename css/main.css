@@ -20,6 +20,7 @@ body {
   background: #fff;
   font: 22px/24px serif;
   color: #000;
+  text-rendering: optimizeLegibility;
 }
 
 section#about{
