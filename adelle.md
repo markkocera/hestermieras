@@ -1,5 +1,6 @@
 ---
 layout: default
+title: hester mieras
 fontclass: tk-adelle
 ---
 
