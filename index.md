@@ -1,10 +1,9 @@
 ---
 layout: default
-title: hester mieras
-fontclass: tk-skolar
+title: Hester Mieras
 ---
 
-# hester mieras –
+# hester mieras —
 
 * grafisch ontwerp
 * knsm-laan 207
