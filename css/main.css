@@ -70,3 +70,7 @@ section#info p.white {
 section#info p.black {
   color: black;
 }
+
+section#info p.gray {
+  color: #d3d3d3;
+}
