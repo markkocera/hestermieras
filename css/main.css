@@ -54,3 +54,19 @@ li {
   margin: 0;
   padding: 0;
 }
+
+section#info {
+  position: absolute;
+  left: 115px;
+  bottom: 25px;
+}
+section#info p {
+  font: 13px/16px "freight-sans-pro", helvetica, sans-serif;
+}
+section#info p.white {
+  color: white;
+}
+
+section#info p.black {
+  color: black;
+}

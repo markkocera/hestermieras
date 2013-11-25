@@ -27,10 +27,36 @@
       </article>
     </section>
 
+    <section id="info">
+      <p></p>
+    </section>
+
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
     <script type="text/javascript" src="javascripts/jquery.backstretch.min.js"></script>
     <script type="text/javascript">
       window.jQuery || document.write("<script src='javascripts/jquery-1.10.2.min.js'>\x3C/script>")
+      var $info = $("#info p");
+      var desc = [
+        ["", ""],
+        ["", ""],
+        ["", ""],
+        ["i.s.m: Dan Seelig", "black"],
+        ["i.s.m: Blaffende Honden", "black"],
+        ["", ""],
+        ["i.s.m: Mirjam Mieras &amp; Koninklijke Nederlandse Munt <br> foto: Hein van den Heuvel", "white"],
+        ["door Robin Seelig", "black"],
+        ["i.s.m: Mirjam Mieras &amp; Koninklijke Nederlandse Munt <br> foto: Hein van den Heuvel", "black"],
+        ["", ""],
+        ["", ""],
+        ["", ""],
+        ["", ""],
+        ["i.s.m: Mirjam Mieras &amp; Koninklijke Nederlandse Munt", "black"],
+        ["i.s.m: Mirjam Mieras &amp; Koninklijke Nederlandse Munt", "black"],
+        ["", ""],
+        ["i.s.m: Miranda van Kimmenaede", "black"],
+        ["foto: Esther de Jong", "white"],
+      ]
+
       $.backstretch([
         "images/ampersand.jpg",
         "images/utopia-voorkant.jpg",
@@ -48,8 +74,12 @@
         "images/5-euro.jpg",
         "images/rolletje-bea-2.jpg",
         "images/tegels.jpg",
-        "images/dja-boekje.jpg"
+        "images/dja-boekje.jpg",
+        "images/kroeg.jpg"
       ], {duration: 4000, fade: 300});
+      $(window).on("backstretch.before", function (e, instance, index) {
+        $info.html(desc[index][0]).removeClass().addClass(desc[index][1]);
+      });
     </script>
   </body>
 </html>
